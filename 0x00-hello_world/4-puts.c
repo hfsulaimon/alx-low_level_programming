@@ -1,12 +1,17 @@
 #include <stdio.h>
 
-int main(){
-	
-	/* Initializing strings */
-	char value[] = "Programming is like building a multilingual puzzle";
-	
-	/* writing to stdout */
-	puts(value);
+/**
+* main - the entry point of c program
+*/
+int main(void)
+{
+        /* Initializing strings */
+        char value[] = "\"Programming is like building a multilingual puzzle";
 
-	return 0;
+        /**
+	 * writing to stdout 
+	 */
+        puts(value);
+
+        return(0);
 }
