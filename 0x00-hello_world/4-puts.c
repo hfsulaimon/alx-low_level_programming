@@ -2,14 +2,15 @@
 
 /**
 * main - the entry point of c program
-* void - returns nothing
+* 
+* Return: 0 to end the program
 */
 int main(void)
 {
 	/* Initializing strings */
 	char value[] = "\"Programming is like building a multilingual puzzle";
 	/**
-	* writing to stdout 
+	* writing to stdout
 	*/
 	puts(value);
 	return (0);
