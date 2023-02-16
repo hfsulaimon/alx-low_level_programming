@@ -7,7 +7,7 @@
 int main(void)
 {
 	/* Initializing strings */
-	char value[] = "\"Programming is like building a multilingual puzzle
+	char value[] = "\"Programming is like building a multilingual puzzle";
 	/**
 	* writing to stdout 
 	*/
