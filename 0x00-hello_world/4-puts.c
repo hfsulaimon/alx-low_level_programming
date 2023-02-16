@@ -2,7 +2,7 @@
 
 /**
 * main - the entry point of c program
-* 
+*
 * Return: 0 to end the program
 */
 int main(void)
