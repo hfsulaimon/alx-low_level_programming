@@ -4,7 +4,7 @@
 * main - Entry pont of C
 * Return: 0
 */
-int main (void)
+int main(void)
 {
 	int num = 48;
 
