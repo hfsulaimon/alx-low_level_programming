@@ -1,61 +1,19 @@
 # 0x00. C - Hello, World
+# 0x01. C - Variable-if else, while
 
 
-- [Mandatory Task](#mandatory-task)
-- [Advanced Task](#advanced-task)
 - [Author](#author)
 - [Acknowledgments](#acknowledgements)
 - [Credits](#credits)
 - [Links](#link-to-template)
 
-## Task Preview
 
-- [X] Mandatory Task
-    - [X] task - 0
-    - [ ] task - 1
-    - [ ] task - 2
-
-- [ ] Advanced Task
-    - [ ] task - 101
-   
-
-## Mandatory Task
-
-#### [Task - 0](./file-name)
-
-**Challenge:**
-
-[Task 0](./file-name)
-
-### [Task - 1](./filename)
-
-**Challenge:**
-
-[Task 1](./file-name)
-
-## Advanced Task
-
-### [Task - 013](./filename)
-
-**Challenge:**
-
-[Task 100](./file-name)
-
-### [Task - 014](./filename)
-
-**Challenge:**
-
-[Task 101](./file-name)
-
-## What I learned from this project
-
-Add what you learned here...(Remove this)
 
 ## Author
 
 - ALX - [ALX Africa](https://www.alxafrica.com)
 - Twitter - [_@hfsulaimon_](https://twitter.com/hfsulaimon)
-- Linkedin - (https://www.linkedin.com/in/hamdallahsj/)
+- Linkedin - [hamdallahsj](https://www.linkedin.com/in/hamdallahsj/)
 
 ## Acknowledgements
 
