@@ -15,7 +15,7 @@ int main(void)
 		lower++;
 	}
 	upper = 'A';
-	while((int)upper < 91)
+	while ((int)upper < 91)
 	{
 		putchar(upper);
 		upper++;
