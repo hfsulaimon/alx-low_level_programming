@@ -6,13 +6,15 @@
 */
 int main(void)
 {
-	char lower, upper = 'a', 'A';
+	char lower, upper;
 	/* while - loop through a condition */
+	lower = 'a';
 	while ((int)lower < 123)
 	{
 		putchar(lower);
 		lower++;
 	}
+	upper = 'A';
 	while((int)upper < 91)
 	{
 		putchar(upper);
