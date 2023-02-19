@@ -8,8 +8,8 @@ int main(void)
 {
 	char digit, alpha;
 
-	digit = 0;
-	while (digit < 10)
+	digit = 48;
+	while (digit < 58)
 	{
 		putchar(digit);
 		digit++;
