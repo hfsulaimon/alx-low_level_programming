@@ -10,10 +10,18 @@ int main(void)
 
 	while (digit < 58)
 	{
-		putchar(digit);
-		putchar(',');
-		putchar(' ');
-		digit++;
+		if (digit != 57)
+		{
+			putchar(digit);
+			putchar(',');
+			putchar(' ');
+			digit++;
+		}
+		else 
+		{
+			putchar(digit);;
+			digit++;
+		}
 	}
 	putchar('\n');
 	return (0);
