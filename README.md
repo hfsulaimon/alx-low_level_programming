@@ -1,6 +1,6 @@
 # 0x00. C - Hello, World
 # 0x01. C - Variable-if else, while
-
+# 0x02. C - Functions and Nested loops
 
 - [Author](#author)
 - [Acknowledgments](#acknowledgements)
