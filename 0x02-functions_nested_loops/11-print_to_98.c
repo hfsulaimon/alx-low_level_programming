@@ -15,7 +15,7 @@ void print_to_98(int n)
 	{
 		while (v >= 98)
 		{
-			printf("%d", v);
+			printf("%d\n", v);
 			if (!(v == 98))
 			{
 				_putchar(',');
@@ -28,7 +28,7 @@ void print_to_98(int n)
 	{
 		while (v <= 98)
 		{
-			printf("%d", v);
+			printf("%d\n", v);
 			if (!(v == 98))
 			{
 				_putchar(',');
@@ -39,9 +39,8 @@ void print_to_98(int n)
 	}
 	else if (v == 98)
 	{
-		printf("%d", v);
+		printf("%d\n", v);
 	}
-	_putchar('\n');
 }
 
 
