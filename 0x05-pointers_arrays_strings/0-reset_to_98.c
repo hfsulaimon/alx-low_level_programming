@@ -2,7 +2,7 @@
 
 /**
   * reset_to_98 - Updates an integer value
-  * @*n: The address of the integer value
+  * @n: The address of the integer value
   * Return: nothing
   */
 void reset_to_98(int *n)
@@ -10,6 +10,4 @@ void reset_to_98(int *n)
 	int *p = n;
 
 	*p = 98;
-	_putchar((*p / 10) + '0');
-	_putchar((*p % 10) + '0');
 }
