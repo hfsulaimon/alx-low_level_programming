@@ -3,6 +3,7 @@
 # 0x02. C - Functions and Nested loops
 # 0x03. C - Debugging
 # 0x04. C - More Functions and Neted Loops
+# 0x05. C - Pointers, arrays and strings
 
 - [Author](#author)
 - [Acknowledgments](#acknowledgements)
