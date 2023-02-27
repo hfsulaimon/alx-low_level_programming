@@ -10,6 +10,7 @@
 void print_array(int *a, int n)
 {
 	int *p = a, size = n, i;
+
 	if (size <= 0)
 	{
 		printf("\n");
