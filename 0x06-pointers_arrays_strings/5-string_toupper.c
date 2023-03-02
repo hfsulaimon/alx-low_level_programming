@@ -9,9 +9,10 @@
   */
 char *string_toupper(char *s)
 {
-	int i = 0;
+	int i = 0, size;
 
-	while (s[i] != '\0')
+	size = strlen(s);
+	while (i <= size)
 	{
 		if ((s[i] >= 97) && (s[i] <= 122))
 		{
@@ -19,6 +20,5 @@ char *string_toupper(char *s)
 			i++;
 		}
 	}
-	printf("\n");
 	return (s);
 }
