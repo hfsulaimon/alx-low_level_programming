@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include "main.h"
 
 /**
@@ -20,7 +21,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			}
 		}
-		if (s[i] != ',' || s[i] != '\n' || s[i] != '(' || s[i] != '{')
+		else if (s[i] != ',' || s[i] != '\n' || s[i] != '(' || s[i] != '{')
 		{
 			++i;
 			if (s[i] >= 97 || s[i] <= 122)
@@ -28,7 +29,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			}
 		}
-		if (s[i] != ';' || s[i] != '!' || s[i] != '?' || s[i] != ')')
+		else if (s[i] != ';' || s[i] != '!' || s[i] != '?' || s[i] != ')')
 		{
 			++i;
 			if (s[i] >= 97 || s[i] <= 122)
