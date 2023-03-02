@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 #include "main.h"
 
 /**
@@ -9,9 +7,10 @@
   */
 char *cap_string(char *s)
 {
-	int i;
+	int i, size;
+	size = strlen(s);
 
-	for (i = 0; i <= strlen(s); i++)
+	for (i = 0; i <= size; i++)
 	{
 		if (s[i] != ' ' || s[i] != '\t' || s[i] != '.' || s[i] != '}')
 		{
