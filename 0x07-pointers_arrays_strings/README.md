@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World
+# 0x07. C - Even more Pointers, Arrays and Strings
 
 
 - [Mandatory Task](#mandatory-task)
