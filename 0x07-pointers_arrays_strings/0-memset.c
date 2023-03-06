@@ -5,6 +5,7 @@
   * @s: The memory
   * @b: The constant byte
   * @n: number of bytes to be filled
+  * Return - The updated memory
   */
 char *_memset(char *s, char b, unsigned int n)
 {
