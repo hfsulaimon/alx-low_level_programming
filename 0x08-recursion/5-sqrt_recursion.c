@@ -1,10 +1,10 @@
 #include "main.h"
 
  /**
-  * check_sqrt - Checks for the square
+  * check_sqrt: Checks for the square
   * @num: Integer
   * @counter: Incrementor
-  * Return - counter if it has square root
+  * Return: counter if it has square root
   * and -1 if it doesn't
   */
 int check_sqrt(int num, int counter)
@@ -18,10 +18,11 @@ int check_sqrt(int num, int counter)
 /**
  * _sqrt_recursion- Print square root of num
  * @n: Integer
- * Return - square of a number
+ * Return: square of a number
  */
 int _sqrt_recursion(int n)
 {
 	int counter = 1;
+
 	return (check_sqrt(n, counter));
 }
