@@ -30,10 +30,10 @@ int check_palindrome(char *s, int start, int end, int inr, int lS)
  */
 int is_palindrome(char *s)
 {
-	if (s == "")
-		return (1);
 	int start, end, counter, lengthS;
 
+	if (s == NULL)
+		return (1);
 	lengthS = strlen(s);
 	start = 0;
 	end = lengthS - 1;
