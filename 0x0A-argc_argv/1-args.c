@@ -10,7 +10,7 @@
 int main(int argc, char __attribute__((unused)) *argv[])
 {
 	int i, count = 0;
-	
+
 	for (i = 1; i < argc; i++)
 	{
 		count = count + 1;
