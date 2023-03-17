@@ -12,31 +12,36 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *s3;
-	unsigned long int i, j;
+	unsigned long int i, j, length1, length2;
 	/* treat NULL as empty string */
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
+	/* get the length of s1 and s2 */
+	while (s1 != '\0')
+		length1++;
+	while (s2 != '\0')
+		length2++;
 	/*sets n to length of s2 if greater or equal */
-	if (n >= strlen(s2))
-		n = strlen(s2);
+	if (n >= length2)
+		n = length2;
 	/*allocate memory to s3*/
-	s3 = malloc(strlen(s1) + n + 1);
+	s3 = malloc((length1 + n + 1) * sizeof(char));
 	if (s3 == NULL)
 		return (NULL);
 	i = 0;
-	while (i < strlen(s1))
+	while (i < length1)
 	{
 		s3[i] =  s1[i];
 		i++;
 	}
-
-	j = strlen(s3);
-	for (i = 0; i < n; i++)
+	/*add s2 to s3 */
+	for (j = 0; j < n; i++)
 	{
-		s3[j] = s2[i];
-		++j;
+		s3[i] = s2[j];
+		i++;
 	}
+	s3[i] = '\0';
 	return (s3);
 }
