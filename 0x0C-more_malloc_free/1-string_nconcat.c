@@ -38,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 	}
 	/*add s2 to s3 */
-	for (j = 0; j < n && s2[j] != '\0'; i++)
+	for (j = 0; j < n && s2[j] != '\0'; j++)
 	{
 		s3[i] = s2[j];
 		i++;
