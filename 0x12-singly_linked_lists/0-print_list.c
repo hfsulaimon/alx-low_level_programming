@@ -13,7 +13,7 @@
 size_t print_list(const list_t *h)
 {
 	size_t count;
-
+	/* Initialize variable*/
 	count = 0;
 	while (h != 0)
 	{
